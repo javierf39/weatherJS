@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherJS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Weather</h1>
+    <div class="search">
+        <input type="text" name="" id="city" placeholder="City">
+        <button class="btn-seacrh" onclick="searchCity()">Search</button>
+    </div>
+
+    <div class="weathers">
+        <div class="your-weather">
+            <div class="temperature">
+                <h1 id="degrees"></h1>
+            </div>
+            <div class="icon">
+                <h2 id="location"></h2>
+                <img id="iconTemp" src="" alt="iconTemp">
+            </div>
+            <div class="rain">
+                <img src="img/lluvia-iocn.png" alt="lluviaIcon">
+                <h2 id="percentage"></h2>
+            </div>
+        </div>
+
+        <div id="new-city" style="display: none;">
+            <div class="temperatureNew">
+                <h1 id="degreesNew"></h1>
+            </div>
+            <div class="iconNew">
+                <h2 id="locationNew"></h2>
+                <img id="iconTempNew" src="">
+            </div>
+            <div class="rainNew">
+                <img src="img/lluvia-iocn.png" alt="lluviaIcon">
+                <h2 id="percentageNew"></h2>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>

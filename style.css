@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,200&family=Yanone+Kaffeesatz&display=swap');
+body {
+    background-color: rgb(133, 193, 233);
+}
+
+h1,
+h2,
+h3 {
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+    color: black;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.btn-seacrh {
+    display: block;
+    cursor: pointer;
+    width: 90px;
+    padding: 5px;
+    margin: 0px auto;
+    margin-top: 5px;
+    border: none;
+    border-radius: 16px;
+    font-size: 18px;
+    background-color: rgb(36, 113, 163);
+}
+
+#city {
+    display: block;
+    text-transform: uppercase;
+    padding: 5px;
+    margin: 0px auto;
+    text-align: center;
+    background-color: transparent;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 16px;
+}
+
+#percentage,
+#percentageNew {
+    font-size: 40px !important;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 15px;
+}
+
+#location,
+#locationNew {
+    font-size: 30px;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 30px;
+}
+
+.weathers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.your-weather,
+#new-city {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 200px;
+    margin: 0px auto;
+    margin-top: 100px;
+    box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.your-weather p {
+    text-align: center;
+}
+
+#iconTemp,
+#iconTempNew {
+    border-radius: 50%;
+}
+
+.rain img,
+.rainNew img {
+    width: 80px;
+    height: 80px;
+}
+
+.temperature,
+.temperatureNew,
+.icon,
+.iconNew,
+.rain,
+.rainNew {
+    text-align: center;
+}
